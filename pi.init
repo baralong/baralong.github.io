@@ -1,8 +1,8 @@
-sudo apt install git
+sudo apt install git -y
 git config --global pull.ff only
 git config --global user.name "Doug Paice"
 git config --global user.email doug.paice@baralong.org
-sudo apt install zsh
+sudo apt install zsh -y
 sudo chsh -s /usr/bin/zsh pi
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 sed -i 's/robbyrussell/kphoen/g' /home/pi/.zshrc
