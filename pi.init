@@ -5,6 +5,7 @@ sudo apt install git -y
 git config --global pull.ff only
 git config --global user.name "Doug Paice"
 git config --global user.email doug.paice@baralong.org
+git config global push.autoSetupRemote true
 sudo apt install zsh -y
 sudo chsh -s /usr/bin/zsh $USER
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
