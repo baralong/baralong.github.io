@@ -29,9 +29,8 @@ twitter_username: baralong
 github_username:  baralong
 
 # Build settings
-remote_theme: pages-themes/architect@v0.2.0
+theme: architect
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
