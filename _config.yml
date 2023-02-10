@@ -29,7 +29,9 @@ twitter_username: baralong
 github_username:  baralong
 
 # Build settings
-theme: architect
+# I don't know why this isn't working
+# theme: architect
+remote_theme: pages-themes/architect
 plugins:
   - jekyll-feed
 
