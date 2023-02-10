@@ -29,12 +29,11 @@ twitter_username: baralong
 github_username:  baralong
 
 # Build settings
-# I don't know why this isn't working
-# theme: architect
-remote_theme: pages-themes/architect
+# I don't know why this isn't working theme: minima
+# remote_theme: pages-themes/architect
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
