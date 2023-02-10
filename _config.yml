@@ -31,6 +31,7 @@ github_username:  baralong
 # Build settings
 # I don't know why this isn't working theme: minima
 # remote_theme: pages-themes/architect
+theme: minima
 plugins:
   - jekyll-feed
 #  - jekyll-remote-theme
